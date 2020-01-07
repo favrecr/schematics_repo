@@ -40,7 +40,7 @@ resource ibm_is_subnet "subnet1" {
 }
 
 data ibm_is_image "ubuntu" {
-  name = "ubuntu-18.04-amd64"
+  name = "lt-vsi-u18-100gbvdisk"
 }
 
 data ibm_is_ssh_key "ssh_key_id" {
