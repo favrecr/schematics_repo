@@ -2,7 +2,7 @@ variable "ssh_key" {}
 variable "resource_group" {}
 
 provider "ibm" {
-  generation = 1
+  generation = 2
   region = "us-south"
 }
 
